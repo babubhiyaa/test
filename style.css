@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    background: transparent;
+}
+/* section{
+    max-width: 1200px;
+    margin:0 auto ;mar
+    padding: 2rem 4rem;
+} */
+.btn{
+    background-color:#0A1045 ;
+    border-radius: 16px;
+    padding: 8px;
+}
+.btn:hover{
+    background-color: red;
+}
+.links a{
+    padding-left: 12px;
+    text-decoration: none;
+
+    color: white;   
+}
+.links i{
+    margin-left: 12px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:#0A1045;
+    color: white;
+}
+header{
+    padding: 10px;
+   font-size: 20px;
+   background-color: lightseagreen;
+}
+.container{
+height: 70vh;
+padding-left: 40px;
+padding-top: 50px;
+font-size: 25px;  
+background-color: lightseagreen;  
+}
+.introduction{
+/* margin: 10px;     */
+padding: 15px;
+}
+.name{
+    font-size: 50px;
+    color: maroon;
+}
+.field{
+    font-size: 50px;
+    color: maroon;
+}
+.Webpara{
+    margin: 20px;
+    width: 400px;
+    height: 50px;
+    font-size: 23px;
+    color:green ;
+}
+.linear{
+    height: 3px;
+    background: linear-gradient(45deg, red 0%,black 100%);
+}
+.headone{
+    background-color: rebeccapurple;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    background-color: rebeccapurple;
+}
+h2{
+padding-top: 30px;
+padding-left: 30px;
+}
+.projectchild1{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.firstpic{
+    padding-left: 7px;
+    border-left: 3px solid green;
+    border-top: 3px solid green;
+    padding-top: 7px;
+    border-radius: 16px;
+}
+.projectchildone{
+    grid-column: 4/11;
+    grid-row: 1/2;
+    padding-right: 40px;
+}
+.projectchildone h3{
+    text-align:end;
+    color: antiquewhite;
+    font-style: italic;
+}
+.projectfirstp{
+   margin-top: 20px;
+   margin-bottom: 20px;
+  color: antiquewhite;
+  font-size: 15px;
+  padding-top: 10px; 
+  box-sizing: border-box;
+  background-color: #0A1045;
+  border-left: 3px solid red;
+  border-top: 3px solid red;
+  border-right: 3px solid red;
+  border-bottom: 3px solid red;
+
+}
+.headfour{
+    color: antiquewhite;
+    font-style: italic;
+    text-align: end;
+}
+.projectchildone span{
+    display: block;
+    text-align: end;
+    color: antiquewhite;
+    font-style: italic;
+}
+/* img{
+    height: 100%;
+    width: 100%;
+} */
+.projectchid2{
+    grid-column: 1/7;
+    grid-row: 2/3;
+    z-index: 1;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.projectchid2 span{
+    color: antiquewhite;
+    font-style: italic;
+}
+.projectchid2 h3{
+    color: antiquewhite;
+    font-style: italic;
+}
+.childtwo{
+    grid-column: 6/11;
+    grid-row: 2/3;
+    padding-right: 40px;
+    padding-top: 80px;
+}
+.projectchid2 h4{
+    color: antiquewhite;
+    font-style: italic;
+    text-align: start;
+}
+.projectchild3{
+grid-column: 1/7;
+grid-row: 3/4;
+padding-top: 50px;
+padding-left: 40px;
+}
+.projectchildthird{
+    grid-column: 4/11;
+    grid-row: 3/4;
+    padding-right: 40px;
+    padding-top: 80px;
+}
+.projectchild3 h4{
+    color: antiquewhite;
+    font-style: italic;
+}
+.projectchildthird h3{
+   text-align: end;
+   color: antiquewhite;
+    font-style: italic;
+}
+.projectchildthird span{
+    display: block;
+    color: antiquewhite;
+    font-style: italic;
+    text-align: end;
+}
+.linear{
+    height: 3px;
+    background: linear-gradient(45deg, red 0%,white 100%);   
+}
+.contact{
+    background-color: green;
+}
+.foot{
+    background-color: red;
+}
+.multi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.multi h1{
+    color:navy;
+    padding: 15px;
+}
+.multi p{
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    padding-bottom: 20px ;
+}
+.icons a i{
+    margin: 20px;
+    background: var(--text-primary);
+    /* color:black; */
+    padding: 10px;
+    border-radius: 16px;
+    margin-left: 12px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:#0A1045;
+    color: white;
+
+}
+.contact button{
+    margin: 20px 25px;
+    background:var(--bg-primary) ;
+    border: 2px solid purple ;
+    padding: 7px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: red;
+}
+.contact button:hover{
+    background: var(--text-primary);
+    box-shadow: 0px 0px 10px 3px purple;
+}
+.projectinfo{
+    display: grid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    grid-template-columns: repeat(10,1fr);
+    background-color: rebeccapurple;
+}
+.retapic{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-left: 7px;
+    border-left: 3px solid green;
+    border-top: 3px solid green;
+    padding-top: 7px;
+    border-radius: 16px;
+}
+.projectchildinfo{
+    grid-column: 3/11;
+    grid-row: 1/2;
+    padding-right: 80px;
+    padding-top: 200px;
+}
+.projectchildinfo h3{
+    text-align: end;
+}
+.projectchildinfo span{
+    display: block;
+    text-align: end;
+}
+.both{
+    background-color: #04471C;
+    padding-bottom: 20px;
+}
+.whatsappno{
+    /* background-color: #04471C; */
+    padding-top: 200px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+.whatsappno p{
+    padding: 12px;
+}
+.whatsappno i{
+    padding: 10px;
+    background-color: green;
+    border-radius: 25%;
+    color: white;
+}
+.emaill{
+    margin: 20px 25px;
+    background:var(--bg-primary) ;
+    border: 1px solid purple ;
+    padding: 7px;   
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: center;
+    color: red;   
+}
+.emaill:hover{
+    background: var(--text-primary);
+    box-shadow: 0px 0px 10px 3px purple;
+}
